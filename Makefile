@@ -1,5 +1,5 @@
 CC ?= gcc
-LUA_VERSION ?= 5.4
+LUA_VERSION ?= 5.5
 LUA_INC ?= /usr/include/lua$(LUA_VERSION)
 TARGET = geo.so
 SRCS = geo.c lua-geo.c
